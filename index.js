@@ -70,7 +70,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/hello',(req,res)=>{
-    console.log("Running Genius server port",port);
+    res.send("updated heregit add")
 })
 
 app.listen(port,()=>{
